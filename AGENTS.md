@@ -23,6 +23,20 @@ When implementing a plan:
 - Implement one step at a time
 - After each step, stop, summarize what was done and wait for my confirmation before starting the next step
 
+## Markdown
+
+Write for the reader: fast to read, cheap to maintain.
+
+- One topic per file, next to what it describes
+- Leave out what the reader does not need to act
+- Each fact once, in the form that shows it fastest: diagram, table, list or code block
+- Explain a code block with comments inside it
+- Make commands ready to paste: real values or named placeholders
+- Prose only for what those cannot say
+- Never restate the code or another doc; link to it
+- Where one change forces another, say so next to it
+- Exact names, paths and values in backticks
+
 ## Code Style
 
 ### General
