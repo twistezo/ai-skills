@@ -70,6 +70,7 @@ Write for the reader: fast to read, cheap to maintain.
 
 - Write unit tests around real business use cases, not to match the implementation
 - Cover both the happy path and negative paths (invalid input, edge cases, errors)
+- If a test exposes flawed business logic, report it; never bend the test to pass
 
 ## Programming principles
 
