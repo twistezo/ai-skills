@@ -1,8 +1,13 @@
 #!/bin/sh
+set -eu
 
-repo_dir=$(cd "$(dirname "$0")" && pwd)
-claude_file="$HOME/.claude/CLAUDE.md"
+agents_file="$(cd "$(dirname "$0")" && pwd)/AGENTS.md"
 
-mkdir -p "$HOME/.claude"
-echo "@$repo_dir/AGENTS.md" > "$claude_file"
-echo "Installed in $claude_file"
+install_to() {
+  mkdir -p "$(dirname "$1")"
+  cp "$agents_file" "$1"
+  echo "Installed $1"
+}
+
+install_to "$HOME/.claude/CLAUDE.md"
+install_to "${CODEX_HOME:-$HOME/.codex}/AGENTS.md"

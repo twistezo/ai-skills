@@ -4,14 +4,14 @@ My instructions for AI agents
 
 - [AGENTS.md](./AGENTS.md) - general guidelines
 - [CLAUDE.md](./CLAUDE.md) - reference for Claude (older Claude versions)
-- [install.sh](./install.sh) - global install for Claude Code
+- [install.sh](./install.sh) - global install for Claude Code and Codex
 
 ## Usage
 
-### Globally (Claude):
+### Globally (Claude, Codex):
 
 1. Run `./install.sh`
-2. It overwrites `~/.claude/CLAUDE.md` with [AGENTS.md](./AGENTS.md)
+2. It overwrites `~/.claude/CLAUDE.md` and `~/.codex/AGENTS.md` with [AGENTS.md](./AGENTS.md)
 
 ### Per project
 
