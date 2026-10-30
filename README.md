@@ -1,4 +1,4 @@
-# Skills
+# ai-skills
 
 My instructions for AI agents
 
