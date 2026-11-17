@@ -54,7 +54,8 @@ Opening fits the reader: what it is for users, straight to action for a team tha
 
 - Preserve existing project patterns
 - Clear, descriptive names; let naming and structure document the code
-- Keep comments minimal; only to explain what or why
+- Prefer self-explanatory code over comments
+- If comments are needed, keep them minimal; only to explain what or why
 - Avoid regex unless necessary and simple; prefer plain code
 - Type explicitly at boundaries (parameters, return types, exports); infer inside
 
